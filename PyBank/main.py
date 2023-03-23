@@ -66,6 +66,18 @@ with open(PyBank_csv) as csv_file:
              #print(f'Greatest Increase in Profits :  {(row)}')
 
 
+
+print("-----------------------------")
+print('Financial Analysis')
+print("-----------------------------")
+print(f'Total Months : {len(months)}')
+print(f'Total :  {(total_profit_loss)}')
+print(f'Average Change :  {round(average_total_change,2)}')
+print(f'Greatest Increase in Profits :  {increase}')
+print(f'Greatest Decrease in Profits :  {decrease}')
+      
+
+
 output_path = os.path.join("Analysis", "result.txt")
 
 with open(output_path, 'w') as csvfile:

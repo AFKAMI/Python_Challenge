@@ -65,6 +65,18 @@ for row in candidate_votes["vote_per"]:
       II=i
    i=i+1 
 
+print("-----------------------------")
+print ('Election Results')
+print("-----------------------------")
+print(f' Total Votes: {total_votes}')
+print ("-----------------------------")
+print(f' {cand_1} : {vote_percentage_1}% {(total_cand_1)}')
+print(f' {cand_3} : {vote_percentage_3}% {(total_cand_3)}')
+print("-----------------------------")
+print(f' Winner : {candidate_votes["name"][II]}')   
+print("-----------------------------")
+         
+
 
 
 
